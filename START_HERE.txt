@@ -1,0 +1,15 @@
+START HERE - AI Jobs Impact & Upskilling Study
+
+1. Extract this ZIP.
+2. On Windows, install Python 3.10+ if it is not installed.
+3. Double-click run_windows.bat.
+4. When the terminal shows a Local URL (usually http://localhost:8501), open it in your browser.
+5. To analyse your actual dataset, choose 'Upload a CSV' in the sidebar and upload your approved project dataset.
+6. In 'Analysis column mapping', confirm the role, impact and skill columns. Do not trust auto-detection without checking.
+7. Review Dataset Explorer, Data Quality, Analysis and Submission Guide tabs.
+8. Complete docs/REPORT_TEMPLATE.md with real findings and citations.
+
+IMPORTANT:
+- data/sample_jobs_ai_impact.csv is only demo/test data. Do not use its numbers as real-world research findings.
+- Original app.py and the actual research CSV were not present in the conversation attachments. This is a standalone rebuilt package, not a patch to your existing local folder.
+- The code syntax and data-quality unit tests were checked in the preparation environment, but the full Streamlit app could not be launched here because Streamlit could not be installed in this offline environment. Install requirements on your Windows computer via run_windows.bat.

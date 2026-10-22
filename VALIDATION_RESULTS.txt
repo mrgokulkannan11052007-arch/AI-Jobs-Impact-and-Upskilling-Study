@@ -1,0 +1,16 @@
+AI Jobs Impact & Upskilling Study — Package Validation
+
+Checks completed during final review:
+- Python syntax compilation for app.py, data_quality.py, and tests: PASS
+- Data-quality unit tests: PASS (5 passed)
+- Mocked app smoke test with bundled sample dataset: PASS
+- Mocked app smoke test with uploaded CSV, repeated roles, out-of-range values, and blank role labels: PASS
+- Mocked app smoke test with only invalid impact values: PASS
+- Plotly qualitative palette runtime issue found during smoke testing and fixed
+- ZIP archive integrity: checked after packaging
+- Extracted-package test run: checked after packaging
+
+Limits of this validation:
+- Streamlit is not installed in the preparation environment and package download access is unavailable. Therefore the browser app could not be launched with the real Streamlit runtime here; mocked smoke tests do not replace a real local launch test.
+- The original local app.py and approved research dataset were not attached to this conversation. This is a standalone rebuild with an illustrative demo CSV, not a direct patch to the user's original folder.
+- Before academic submission, upload the approved dataset, confirm column mappings and score units, and verify the app locally in a browser.
